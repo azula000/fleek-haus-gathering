@@ -1,25 +1,30 @@
-import { Rocket, Shield, Coins, Users } from "lucide-react";
+import { DollarSign, Rocket, Shield, Users, Gift } from "lucide-react";
 
 const features = [
   {
-    title: "Competitive Rewards",
-    description: "Earn attractive commissions for every successful referral that joins Fleek's ecosystem.",
-    icon: Coins,
+    title: "Competitive Cash Rewards",
+    description: "Earn 10% commission for every new customer you refer to Fleek.",
+    icon: DollarSign,
   },
   {
     title: "Early Access",
-    description: "Get first-hand experience with new features and products before they're publicly available.",
+    description: "Get early access to new features and products before they're publicly available.",
     icon: Rocket,
   },
   {
     title: "Dedicated Support",
-    description: "Access exclusive resources and receive priority support from our affiliate team.",
+    description: "Enjoy exclusive resources and priority support from our affiliate and support teams.",
     icon: Shield,
   },
   {
     title: "Growing Community",
-    description: "Join a network of passionate builders and creators shaping the future of web3.",
+    description: "Connect with a network of passionate builders, creators, and thought leaders shaping Web3.",
     icon: Users,
+  },
+  {
+    title: "Bonus Token Incentives",
+    description: "Qualify for future token incentives based on your affiliate performance.",
+    icon: Gift,
   },
 ];
 
@@ -31,8 +36,11 @@ export const Features = () => {
           <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
             Why Become a Fleek Affiliate?
           </h2>
+          <p className="mt-4 text-lg text-gray-400">
+            Discover the benefits of joining our Affiliate Program
+          </p>
         </div>
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
           {features.map((feature) => (
             <div
               key={feature.title}
