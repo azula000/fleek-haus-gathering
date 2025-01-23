@@ -1,9 +1,9 @@
-import { DollarSign, Rocket, Shield, Users, Gift } from "lucide-react";
+import { DollarSign, Rocket, Gift } from "lucide-react";
 
 const features = [
   {
     title: "Competitive Cash Rewards",
-    description: "Earn 10% commission for every new customer you refer to Fleek.",
+    description: "Earn 10% commission for every new referral to Fleek.",
     icon: DollarSign,
   },
   {
@@ -12,18 +12,8 @@ const features = [
     icon: Rocket,
   },
   {
-    title: "Dedicated Support",
-    description: "Enjoy exclusive resources and priority support from our affiliate and support teams.",
-    icon: Shield,
-  },
-  {
-    title: "Growing Community",
-    description: "Connect with a network of passionate builders, creators, and thought leaders shaping Web3.",
-    icon: Users,
-  },
-  {
     title: "Bonus Token Incentives",
-    description: "Qualify for future token incentives based on your affiliate performance.",
+    description: "Affiliates will also qualify for future token incentives in addition to the cash rewards, which will be tied to their affiliate performance.",
     icon: Gift,
   },
 ];

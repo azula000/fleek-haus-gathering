@@ -16,7 +16,7 @@ const faqs = [
   },
   {
     question: "Is there a cap on referrals?",
-    answer: "No, referrals are uncapped and unlimited. You can refer as many people as you'd like. The 10% commission applies to any and all payments by a successful referral to Fleek for 1 year from the date of the referral's successful signup.",
+    answer: "No, referrals are uncapped and unlimited, you can refer as many people as you'd like. The 10% commission applies to any and all payments by a successful referral to Fleek for 1 year from the date of the referral's successful signup.",
   },
   {
     question: "Do I need technical expertise to join?",

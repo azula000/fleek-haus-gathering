@@ -1,25 +1,25 @@
-import { Code, Pencil, Lightbulb, Palette } from "lucide-react";
+import { Code, Pencil, Wrench, Newspaper } from "lucide-react";
 
 const roles = [
   {
     title: "Builders & Developers",
-    description: "Technical experts passionate about decentralized infrastructure",
+    description: "Technical experts passionate about decentralized infrastructure and innovation.",
     icon: Code,
   },
   {
-    title: "Content Creators",
-    description: "Storytellers who create engaging content about web development",
+    title: "Content Creators, KOL's & Thought Leaders",
+    description: "Storytellers, industry experts, developer influencers, and others who inspire and engage through content about AI agents, web development, Web3, and technology.",
     icon: Pencil,
   },
   {
-    title: "Thought Leaders",
-    description: "Industry experts who educate and inspire others",
-    icon: Lightbulb,
+    title: "Open Source Frameworks & Tooling",
+    description: "AI Agent frameworks, frontend frameworks, and other open source software and tooling that can be deployed on Fleek can create revenue streams by encouraging their communities to host on Fleek.",
+    icon: Wrench,
   },
   {
-    title: "Creative Talents",
-    description: "Artists, designers, and creative minds pushing boundaries",
-    icon: Palette,
+    title: "Media Sources",
+    description: "Websites, blogs, directories, lists and other similar product aggregation and customer discovery tools can add Fleek and earn commission for any referred customers.",
+    icon: Newspaper,
   },
 ];
 
@@ -29,10 +29,10 @@ export const WhoCanJoin = () => {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-            Who Can Join?
+            Who Can Join the Fleek Affiliate Program?
           </h2>
           <p className="mt-4 text-lg text-gray-400">
-            We welcome diverse talents who share our vision for the future of the internet
+            We welcome individuals with diverse skills and a shared passion for a decentralized future
           </p>
         </div>
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
